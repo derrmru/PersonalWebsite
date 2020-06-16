@@ -1,0 +1,79 @@
+/*@keyframes open-lid {
+    from {
+        transform-style: preserve-3d;
+        transform: rotateX(0deg);
+    }
+    to {
+        transform-style: preserve-3d;
+        transform: rotateX(-2deg);
+    }
+  }*/
+
+.container {
+    width: 210px;
+    height: 375px;
+    margin: auto;
+    margin-top: 144px;
+    text-align: center;
+    position: relative;
+}
+
+.lid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 5%;
+    background-color: black;
+}
+
+.topLine {
+    position: absolute;
+    width: 96%;
+    margin: auto;
+    top: 9%;
+    left: 2%;
+    border: solid 0.5px rgba(250, 250, 250, 0.2);
+}
+
+.screen {
+    position: absolute;
+    height: 99%;
+    width: 98%;
+    top: 0.5%;
+    left: 1%;
+    margin: auto;
+    border: solid 1px rgba(250, 250, 250, 0.2);
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 9.5%;
+    left: 1.5%;
+    width: 100%;
+    height: 80%;
+    background-image: url('../../../public/images/sg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 98%;
+}
+
+.line {
+    position: absolute;
+    width: 96%;
+    margin: auto;
+    top: 89.5%;
+    left: 2%;
+    border: solid 0.5px rgba(250, 250, 250, 0.4);
+}
+
+.home {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: solid 1px rgba(250, 250, 250, 0.4);
+    border-radius: 50%;
+    left: 92.25px;
+    top: 90.75%;
+}

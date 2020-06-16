@@ -1,0 +1,242 @@
+.home {
+    margin-top: 110px;
+}
+
+/********HOMEPAGE SERVICES*************/
+
+.services {
+    display: flex;
+    width: 100%;
+    padding: 20px 0 0 0;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    width: 50%;
+}
+
+.headlines {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.headlines h2 {
+    margin-left: 74px;
+}
+
+/********HOMEPAGE PROJECTS*************/
+
+.projects {
+    text-align: center;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    background-image: url('../../src/images/backgroundtexture.png');
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.projectsWrapper {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardContainer {
+    width: 30%;
+    max-width: 500px;
+    height: 500px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: rgba(243, 243, 243);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border: solid 2px rgba(5, 59, 6, 0.281);
+    position: relative;
+    transition: 0.8s;
+}
+
+.cardHover {
+    width: 30%;
+    max-width: 500px;
+    height: 500px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: rgba(243, 243, 243);
+    position: relative;
+    transition: 0.8s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    border: solid 2px rgb(5, 59, 6);
+    color: white;
+    cursor: pointer;
+}
+
+.cardTitle {
+    margin: 2% 0 2% 0;
+    font-size: 28px;
+}
+
+.cardSubtitle {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    bottom: 3%;
+    font-size: 18px;
+    transition: 3s;
+}
+
+.hoverTop {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.788);
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    -webkit-animation: hoverCard 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: hoverCard 2s; /* Firefox < 16 */
+        -ms-animation: hoverCard 2s; /* Internet Explorer */
+         -o-animation: hoverCard 2s; /* Opera < 12.1 */
+            animation: hoverCard 2s;
+}
+
+@keyframes hoverCard {
+    from {height: 0px};
+    to {height: 500px;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes hoverCard {
+    from {height: 0px};
+    to {height: 500px;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes hoverCard {
+    from {height: 0px};
+    to {height: 500px;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes hoverCard {
+    from {height: 0px};
+    to {height: 500px;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes hoverCard {
+    from {height: 0px};
+    to {height: 500px;}
+}
+
+/********PROJECT SELECTION******************/
+
+.projectSelect {
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    width: 100%;
+    -webkit-animation: openProject 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: openProject 2s; /* Firefox < 16 */
+        -ms-animation: openProject 2s; /* Internet Explorer */
+         -o-animation: openProject 2s; /* Opera < 12.1 */
+            animation: openProject 2s;
+}
+
+@keyframes openProject {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes openProject {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes openProject {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes openProject {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes openProject {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/********HOMEPAGE MEDIA QUERIES*************/
+
+@media only screen and (max-width: 1150px) {
+    .description {
+        width: 80%;
+    }
+
+    .headlines {
+        width: 75%;
+    }
+
+    .projectsWrapper {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .description {
+        width: 80%;
+    }
+
+    .headlines {
+        width: 75%;
+    }
+
+    .projectsWrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .description {
+        width: 90%;
+    }
+
+    .headlines {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .description {
+        width: 100%;
+    }
+
+    .headlines {
+        width: 90%;
+    }
+
+    .projectsWrapper {
+        width: 100%;
+    }
+}

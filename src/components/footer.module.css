@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    padding: 0;
+    background-color: rgba(243, 243, 243);
+    color: black;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+
+.legal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+}
+
+.footerSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerSocial h3 {
+    text-align: center;
+    text-decoration-color: #053B06;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}

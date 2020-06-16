@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px 0 0 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+a, a:link {
+    display: block;
+    text-decoration: none;
+    transition: 1s;
+    color: #0a0a0a;
+}
+
+a:hover {
+    color: #053B06;
+}

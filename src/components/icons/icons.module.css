@@ -1,0 +1,112 @@
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.border p {
+    margin: 0 0 0 10px;
+    width: 70%;
+}
+
+/*********TELEPHONE ICON*************/
+
+.case {
+    width: 52%;
+    height: 88%;
+    margin-left: 20%;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+
+.speaker {
+    width: 10%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left: 45%;
+    top: 8%;
+}
+
+.screen {
+    width: 40%;
+    height: 60%;
+    margin-left: 21%;
+    background-color: black;
+    position: absolute;
+    top: 14%;
+    left: 8%;
+}
+
+.homeButton {
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 76%;
+    left: 44%;
+}
+
+/*********EMAIL ICON*************/
+
+.envelope {
+    width: 70%;
+    height: 50%;
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 9px solid black;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 13%;
+    top: 5px;
+}
+
+/*********LOCATION ICON*************/
+
+.circle {
+    width: 18px;
+    height: 18px;
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.whiteCircle {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 13px;
+    top: 5px;
+}
+
+.locationTriangle {
+    width: 0; 
+    height: 0; 
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 15px solid black;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 6px;
+    top: 13px;
+}
