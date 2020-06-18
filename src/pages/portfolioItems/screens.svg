@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="897px" height="452px"
+	 viewBox="0 0 897 452" enable-background="new 0 0 897 452" xml:space="preserve">
+<path fill="#2B2C2D" d="M884.436,67.542h-190.89c-6.636,0-12.014,5.377-12.014,12.01V372.45c0,6.633,5.379,12.01,12.014,12.01
+	h190.89c6.637,0,12.015-5.377,12.015-12.01V79.551C896.449,72.918,891.071,67.542,884.436,67.542z M881.021,351.917h-182V99H881.02
+	v252.917H881.021z"/>
+<g id="IPAD" transform="translate(681.000000, 55.000000)" sketch:type="MSLayerGroup">
+	<circle id="lock" sketch:type="MSShapeGroup" fill="none" stroke="#DDDDDD" cx="109.021" cy="312.021" r="8.021">
+	</circle>
+	<circle id="camera" sketch:type="MSShapeGroup" fill="none" stroke="#DDDDDD" cx="107.99" cy="28.99" r="2.99">
+	</circle>
+</g>
+<title>IPAD 2</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Laptop" transform="translate(1.000000, 1.000000)" sketch:type="MSLayerGroup">
+		<circle id="webcam" sketch:type="MSShapeGroup" fill="none" stroke="#000000" stroke-width="2" cx="347" cy="19" r="4">
+		</circle>
+		<g id="bottom" transform="translate(0.000000, 351.000000)" sketch:type="MSShapeGroup">
+			<path id="Shape" fill="#C1C1C1" stroke="#000000" stroke-width="2" d="M640.812,31.01H51.288C20.641,31.01,0,20.494,0,16.021
+				V2.428C0,1.084,1.335,0,2.995,0h686.107c1.662,0,3,1.084,3,2.428v14.129C692.096,20.092,676.112,31.01,640.812,31.01z"/>
+			<path id="Line" fill="#C1C1C1" stroke="#000000" stroke-linecap="square" d="M0.5,14.5h689.742"/>
+		</g>
+		<path fill="#C1C1C1" stroke="#000000" d="M594,0H98C84.504,0,73,11.074,73,24.79v326.237h546V24.79C619,11.073,607.537,0,594,0z
+			 M596.074,331.009H95V39h501.074V331.009z"/>
+		<path id="touchpad" sketch:type="MSShapeGroup" fill="#C1C1C1" stroke="#000000" d="M421,352v3.087
+			c0,2.201-4.333,2.866-7.613,2.866H278.815c-3.451,0-7.815-0.664-7.815-2.866V352"/>
+	</g>
+	<g id="iphone" transform="translate(576.000000, 177.000000)" sketch:type="MSLayerGroup">
+		<path d="M113.938,0.081H16.062C7.192,0.081,0,7.24,0,16.073v241.891c0,8.833,7.191,15.992,16.062,15.992h97.875
+			c8.87,0,16.062-7.159,16.062-15.992V16.073C130,7.24,122.809,0.081,113.938,0.081z M120.93,235.084H9V36h111.93V235.084z"/>
+		<path id="speaker" sketch:type="MSShapeGroup" fill="none" stroke="#FFFFFF" d="M77,25.746c0,0.635-0.439,1.147-0.98,1.147H55.918
+			c-0.542,0-0.98-0.513-0.98-1.147v-2.58c0-0.635,0.439-1.147,0.98-1.147H76.02c0.541,0,0.98,0.513,0.98,1.147V25.746L77,25.746z"/>
+		<circle id="camera_1_" sketch:type="MSShapeGroup" fill="none" stroke="#FFFFFF" cx="66" cy="12" r="3">
+		</circle>
+		<ellipse id="lock_1_" sketch:type="MSShapeGroup" fill="none" stroke="#FFFFFF" cx="65.04" cy="254.001" rx="10.04" ry="10.001">
+		</ellipse>
+	</g>
+</g>
+</svg>

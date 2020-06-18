@@ -23,7 +23,12 @@
     justify-content: center;
     padding: 20px;
     margin: 0;
-    background-color: white;
+    color: white;
+    background-color: #335C81;
+}
+
+.legal a {
+    color: white;
 }
 
 .footerSocial {
@@ -35,7 +40,7 @@
 
 .footerSocial h3 {
     text-align: center;
-    text-decoration-color: #053B06;
+    text-decoration-color: #335C81;
 }
 
 h3 {

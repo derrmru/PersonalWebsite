@@ -26,5 +26,21 @@ a, a:link {
 }
 
 a:hover {
-    color: #053B06;
+    color: #1b2845;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #335C81;
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: rgb(243, 243, 243);
+    color: #1b2845;
 }
