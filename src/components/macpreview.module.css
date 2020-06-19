@@ -4,33 +4,33 @@
 
 .screens {
     position: absolute;
-    width: 300px;
+    width: 270px;
     top: 11px;
-    left: 20px;
+    left: 25px;
 }
 
 .macImage {
     position: absolute;
-    width: 168px;
+    width: 152px;
     height: 100px;
-    top: 24px;
-    left: 52px;
+    top: 23px;
+    left: 54px;
 }
 
 .phoneImage {
     position: absolute;
-    width: 37.25px;
-    height: 66px;
-    top: -104.75px;
-    left: 215.75px;
+    width: 34px;
+    height: 61px;
+    top: -112px;
+    left: 201px;
 }
 
 .tabletImage {
     position: absolute;
-    width: 61px;
+    width: 56px;
     height: 87px;
-    top: -56px;
-    left: 254px;
+    top: -60px;
+    left: 235px;
 }
 
 .findOutMore {

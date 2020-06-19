@@ -11,7 +11,6 @@ import Responsive from "../components/icons/responsive"
 import Crm from "../components/icons/crm"
 import MacPreview from "../components/macpreview"
 import Footer from "../components/footer"
-import Img from "gatsby-image"
 
 export default function Home({ data }) {
 
@@ -57,7 +56,7 @@ export default function Home({ data }) {
           </div>
         </div>
           <Laptop />
-          <div style={{width: "100%"}}><a href="./about"><button>Find out how I work</button></a></div>
+          <div className={styles.linkContain}><div className={styles.pageLinks}><a href="./about">See My Workflow</a></div></div>
       </div>
       <div className={styles.projects}>
         <h2>Projects</h2>
@@ -88,8 +87,8 @@ export default function Home({ data }) {
                       mi={mi} 
                       ti={ti}
                       hovering={hovering === i ? true : false}
-                      height={"98%"}
-                      width={"98%"}
+                      height={"50%"}
+                      width={"100%"}
                     />
                     <div className={styles.cardSubtitle}>
                       {node.frontmatter.subtitle}
@@ -130,7 +129,7 @@ export default function Home({ data }) {
             }
           </div>
         </div>
-          <div><a href="./projects"><button>See more projects</button></a></div>
+          <div className={styles.pageLinks}><a href="./projects">See more projects</a></div>
       </div>
       <Footer />
     </div>

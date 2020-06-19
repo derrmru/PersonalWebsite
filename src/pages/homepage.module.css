@@ -2,6 +2,29 @@
     margin-top: 110px;
 }
 
+.linkContain {
+    width: 100%;
+}
+
+.pageLinks {
+    width: 20%;
+    margin: 0 auto 20px auto;
+    border: 2px solid #1b2845;
+    border-radius: 5px;
+    padding: 5px 5px 0 5px;
+    font-size: 22px;
+    transition: 1s;
+}
+
+.pageLinks:hover {
+    border: 2px solid #1b28452c;
+    background-color: #1b2845b6;
+}
+
+.pageLinks a:hover {
+    color: white;
+}
+
 /********HOMEPAGE SERVICES*************/
 
 .services {
@@ -192,6 +215,8 @@
 
 .projectSelect {
     position: sticky;
+    height: 60vh;
+    overflow: scroll;
     bottom: 40px;
     z-index: 900;
     margin-bottom: 40px;
@@ -310,7 +335,7 @@
     }
 
     .pContainer p {
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
 

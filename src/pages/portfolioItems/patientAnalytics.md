@@ -10,5 +10,5 @@ tags: Google Apps Script, G Suite, Javascript, Google API's
 ---
 
 #Patient Analytics
-This is a custom built series of Applications built within G Suite using Google Apps Script.
-Patient information is collected at the point of booking via a G Suite Add-on, which sources and visualises data automatically across the admin system.
+This is a custom built series of Applications integrated with G Suite using Google Apps Script.
+Patient information is collected at the point of booking via a bespoke G Suite Add-on, which automatically sources data from across the admin system and visualises various business metrics.
