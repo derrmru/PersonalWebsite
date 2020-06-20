@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useState} from "react"
 import styles from "./languages.module.css"
 import reactImg from "../images/react.png"
 import gatsbyImg from "../images/gatsby.png"
@@ -11,40 +11,34 @@ import reduxImg from "../images/redux.png"
 
 export default function Languages(){
 
-    return (
-    <div className={styles.container}>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={reactImg} alt="logo" /></span></div>
-            <div className={styles.title}>React</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={gatsbyImg} alt="logo" /></span></div>
-            <div className={styles.title}>Gatsby</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={pythonImg} alt="logo" /></span></div>
-            <div className={styles.title}>Python</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={nodeImg} alt="logo" /></span></div>
-            <div className={styles.title}>Node JS</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={wordpressImg} alt="logo" /></span></div>
-            <div className={styles.title}>Wordpress</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={reduxImg} alt="logo" /></span></div>
-            <div className={styles.title}>Redux</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={mongoImg} alt="logo" /></span></div>
-            <div className={styles.title}>Mongo DB</div>
-        </div>
-        <div className={styles.language}>
-            <div className={styles.imageContain}><span><img src={bootstrapImg} alt="logo" /></span></div>
-            <div className={styles.title}>Bootstrap</div>
-        </div>
-    </div>
-    )
+    let lpairs = [
+        [reactImg, "React"], 
+        [gatsbyImg, "Gastby"], 
+        [pythonImg, "Python"], 
+        [nodeImg, "Node JS"], 
+        [wordpressImg, "Wordpress"],
+        [reduxImg, "Redux"],
+        [mongoImg, "Mongo DB"],
+        [bootstrapImg, "Bootstrap"]
+    ];
+
+    //resize listener - create carousel on mobile devices
+
+    window.addEventListener("resize", function(){
+        
+    });
+
+        return (
+            <div className={styles.container}>
+                {lpairs.map((x, i) => {
+                    return (
+                        <div key={i} className={styles.language}>
+                            <div className={styles.imageContain}><span><img src={x[0]} alt="logo" /></span></div>
+                            <div className={styles.title}>{x[1]}</div>
+                        </div>
+                    )
+                })}
+            </div>
+        )
+
 }

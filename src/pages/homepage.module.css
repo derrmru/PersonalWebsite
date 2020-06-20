@@ -14,11 +14,14 @@
     padding: 5px 5px 0 5px;
     font-size: 22px;
     transition: 1s;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .pageLinks:hover {
     border: 2px solid #1b28452c;
     background-color: #1b2845b6;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 1);
+    color: white;
 }
 
 .pageLinks a:hover {
@@ -80,7 +83,7 @@
 }
 
 .cardContainer {
-    width: 340px;
+    width: 334px;
     max-width: 500px;
     height: 440px;
     min-width: 300px;
@@ -95,7 +98,7 @@
 }
 
 .cardHover {
-    width: 340px;
+    width: 334px;
     max-width: 500px;
     height: 440px;
     min-width: 300px;
@@ -112,7 +115,7 @@
 }
 
 .cardTitle {
-    margin: 2% 0 60px 0;
+    margin: 5% 0 60px 0;
     font-size: 28px;
 }
 

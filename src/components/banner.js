@@ -7,7 +7,7 @@ export default function Banner(){
         <div className={styles.leftBorder}></div>
         <div className={styles.text}>
             <div className={styles.tagline}>Bespoke. Progressive. Modern.</div>
-            <div className={styles.subtitle}>Customized Web Development, Built For Your Needs</div>
+            <div className={styles.subtitle}>Customised Web Design & Development, Built For Your Needs</div>
         </div>
     </div>
     )
