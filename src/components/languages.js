@@ -22,12 +22,6 @@ export default function Languages(){
         [bootstrapImg, "Bootstrap"]
     ];
 
-    //resize listener - create carousel on mobile devices
-
-    window.addEventListener("resize", function(){
-        
-    });
-
         return (
             <div className={styles.container}>
                 {lpairs.map((x, i) => {
